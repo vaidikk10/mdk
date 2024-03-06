@@ -211,7 +211,7 @@ static inline void ws2812_show(int pin, const uint8_t *buf, size_t len) {
 // Default settings for board peripherals
 
 #ifndef LED1
-#define LED1 2  // Default LED pin
+#define LED1 8  // Default LED pin
 #endif
 
 #ifndef BTN1
